@@ -18,9 +18,9 @@
           bindings = <&kp>, <&kp>;
       };
 
-      td0: tap_dance_0 {
+      copy_cut: tap_dance_copy_cut {
             compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_0";
+            label = "TAP_DANCE_COPY_CUT";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp LG(C)>, <&kp LG(X)>;
@@ -34,8 +34,8 @@
     default_layer {
       bindings = <
         &kp GRAVE &kp N1    &kp N2   &kp N3   &kp N4     &kp N5 &mo 2                                                                                 &mo 3     &kp N6 &kp N7   &kp N8    &kp N9    &kp N0        &kp MINUS
-        &kp TAB   &kp Q     &kp W    &kp E    &kp R      &kp T  &kp LG(C)                                                                             &kp RG(V) &kp Y  &kp U    &kp I     &kp O     &kp P         &kp BSLH
-        &kp ESC   &kp A     &kp S    &kp D    &kp F      &kp G  &kp BSPC      &kp LG(LS(X)) &kp C_VOL_DN                 &kp C_VOL_UP      &td0       &kp DEL   &kp H  &kp J    &kp K     &kp L     &kp SEMI      &kp SQT
+        &kp TAB   &kp Q     &kp W    &kp E    &kp R      &kp T  &copy_cut                                                                             &kp RG(V) &kp Y  &kp U    &kp I     &kp O     &kp P         &kp BSLH
+        &kp ESC   &kp A     &kp S    &kp D    &kp F      &kp G  &kp BSPC      &kp LG(LS(X)) &kp C_VOL_DN                 &kp C_VOL_UP      &none      &kp DEL   &kp H  &kp J    &kp K     &kp L     &kp SEMI      &kp SQT
         &kp LSHFT &kp Z     &kp X    &kp C    &kp V      &kp B         &none  &none         &kp LG(LA(LEFT)) &none &none &kp RG(RA(RIGHT)) &none  &none         &kp N  &kp M    &kp COMMA &kp DOT   &kp FSLH      &kp RSHFT
         &kp LCTRL &kp LALT  &kp LGUI &kp LEFT &kp RIGHT                &mo 1  &kp LSHIFT    &kp LGUI                     &kp LGUI          &mt RSHIFT RET &kp SPACE    &kp DOWN &kp UP    &kp RG(Z) &kp RG(RS(Z)) &none
       >;
