@@ -18,13 +18,6 @@
           bindings = <&kp>, <&kp>;
       };
 
-      cutcopy: cutcopy {
-        compatible: "zmk,behavior-tap-dance";
-        label = "CUT_COPY";
-        #binding-cells = <0>;
-        tapping-terms-ms = <200>;
-        bindings = <&kp LG(C)>, <&kp RG(X)>;
-      };
     };
 
   keymap {
