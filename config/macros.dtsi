@@ -34,3 +34,15 @@
     #binding-cells = <0>;
     bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
   };
+  macro_tabl: macro_tabl {
+    compatible = "zmk,behavior-macro";
+    label = "macro_tabl";
+    #binding-cells = <0>;
+    bindings = <&kp LEFT>, <&kp LGUI>, <&kp LALT>;
+  };
+  macro_tabr: macro_tabr {
+    compatible = "zmk,behavior-macro";
+    label = "macro_tabr";
+    #binding-cells = <0>;
+    bindings = <&kp RIGHT>, <&kp LGUI>, <&kp LALT>;
+  };
