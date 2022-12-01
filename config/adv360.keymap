@@ -53,7 +53,7 @@
 
     default_layer {
       bindings = <
-        &kp GRAVE &kp N1    &kp N2   &kp N3   &kp N4     &kp N5 &mo 3                                                                                 &kp RC(C) &kp N6 &kp N7   &kp N8    &kp N9    &kp N0        &kp MINUS
+        &kp GRAVE &kp N1    &kp N2   &kp N3   &kp N4     &kp N5 &mo 2                                                                                 &mo 3     &kp N6 &kp N7   &kp N8    &kp N9    &kp N0        &kp MINUS
         &kp TAB   &kp Q     &kp W    &kp E    &kp R      &kp T  &copy_cut                                                                             &kp RG(V) &kp Y  &kp U    &kp I     &kp O     &kp P         &kp BSLH
         &kp ESC   &kp A     &kp S    &kp D    &kp F      &kp G  &kp BSPC      &kp LG(LS(X)) &kp C_VOL_DN                 &kp C_VOL_UP      &kp K_MUTE &kp DEL   &kp H  &kp J    &kp K     &kp L     &kp SEMI      &kp SQT
         &kp LSHFT &kp Z     &kp X    &kp C    &kp V      &kp B         &none  &none         &kp LG(LA(LEFT)) &none &none &kp RG(RA(RIGHT)) &none  &none         &kp N  &kp M    &kp COMMA &kp DOT   &kp FSLH      &kp RSHFT
